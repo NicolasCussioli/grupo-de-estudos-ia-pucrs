@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "nome_aluno": { "type": "string" },
+    "curso": { "type": "string" },
+    "semestre": { "type": "integer" },
+    "tecnologias_dominadas": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["nome_aluno", "curso", "semestre", "tecnologias_dominadas"]
+}
