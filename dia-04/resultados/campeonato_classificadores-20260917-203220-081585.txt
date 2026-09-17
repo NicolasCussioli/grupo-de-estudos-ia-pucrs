@@ -1,0 +1,74 @@
+Script: dia-04/campeonato_classificadores.py
+Modelo configurado: gemini-3.5-flash-lite
+Data local: 20260917-203220-081585
+Exit code: 0
+
+======================================================================
+CAMPEONATO DE CLASSIFICADORES: ZERO-SHOT vs FEW-SHOT + CoT
+======================================================================
+
+[Chamado #1]
+Texto: "URGENTE!!! SOCORRO!! Preciso que alterem a foto do meu perfil agora para a reuniao das 15h!"
+Gabarito: BAIXA (Falsa urgencia emocional. Impacto operacional nulo nas atividades da empresa.)
+  - Zero-Shot:     BAIXA -> CORRETO
+  - Few-Shot+CoT:  BAIXA -> CORRETO
+
+[Chamado #2]
+Texto: "A API de pagamentos esta retornando HTTP 500 para 35% das requisicoes desde as 14h."
+Gabarito: ALTA (Incidente critico em producao com perda direta de receita e impacto a clientes.)
+  - Zero-Shot:     ALTA -> CORRETO
+  - Few-Shot+CoT:  ALTA -> CORRETO
+
+[Chamado #3]
+Texto: "O botao de exportar relatorio em Excel sumiu na versao desktop, mas funciona via web."
+Gabarito: MEDIA (Falha de funcionalidade secundaria com solucao de contorno (workaround) ativa.)
+  - Zero-Shot:     BAIXA -> ERROU
+  - Few-Shot+CoT:  BAIXA -> ERROU
+
+[Chamado #4]
+Texto: "Recebi um e-mail de alerta e ao logar estou vendo os dados cadastrais de outro cliente."
+Gabarito: ALTA (Incidente de seguranca grave com exposicao de dados sensiveis (violacao LGPD).)
+  - Zero-Shot:     ALTA -> CORRETO
+  - Few-Shot+CoT:  ALTA -> CORRETO
+
+[Chamado #5]
+Texto: "Seria interessante se o fundo do painel tivesse uma opcao de modo escuro."
+Gabarito: BAIXA (Sugestao de melhoria visual (feature request), sem nenhum impacto operacional.)
+  - Zero-Shot:     BAIXA -> CORRETO
+  - Few-Shot+CoT:  BAIXA -> CORRETO
+
+[Chamado #6]
+Texto: "A emissao de notas fiscais eletronicas travou ha 30 minutos com 800 notas na fila."
+Gabarito: ALTA (Parada operacional bloqueante em processo fiscal de alta criticidade.)
+  - Zero-Shot:     ALTA -> CORRETO
+  - Few-Shot+CoT:  ALTA -> CORRETO
+
+[Chamado #7]
+Texto: "O tempo de carregamento da listagem de produtos subiu de 1.2s para 3.8s no pico."
+Gabarito: MEDIA (Degradacao de desempenho perceptivel, mas sem indisponibilidade de servico.)
+  - Zero-Shot:     MEDIA -> CORRETO
+  - Few-Shot+CoT:  BAIXA -> ERROU
+
+[Chamado #8]
+Texto: "Parabens a equipe, a nova atualizacao do painel ficou muito mais rapida e intuitiva!"
+Gabarito: BAIXA (Mensagem de feedback positivo. Nao requer intervencao tecnica de suporte.)
+  - Zero-Shot:     BAIXA -> CORRETO
+  - Few-Shot+CoT:  BAIXA -> CORRETO
+
+[Chamado #9]
+Texto: "Um usuario nao consegue redefinir a senha porque o link recebido expira em 2 minutos."
+Gabarito: MEDIA (Bug que bloqueia um usuario especifico, com fluxo de atendimento alternativo.)
+  - Zero-Shot:     ALTA -> ERROU
+  - Few-Shot+CoT:  MEDIA -> CORRETO
+
+[Chamado #10]
+Texto: "Detectamos tentativas nao autenticadas acessando o endpoint /internal/admin/metrics."
+Gabarito: ALTA (Atividade anomala indicando reconhecimento ou tentativa ativa de invasao.)
+  - Zero-Shot:     ALTA -> CORRETO
+  - Few-Shot+CoT:  ALTA -> CORRETO
+
+======================================================================
+RESULTADO FINAL DO CAMPEONATO:
+Zero-Shot:        8/10 acertos (80.0%)
+Few-Shot + CoT:   8/10 acertos (80.0%)
+======================================================================

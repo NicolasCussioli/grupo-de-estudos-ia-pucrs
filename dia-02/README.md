@@ -71,7 +71,7 @@ cabra e a cabra come o repolho. Liste as travessias e os itens em cada margem
 após cada viagem. Verifique se alguma restrição foi violada.
 ```
 
-Compare níveis de thinking suportados, mantendo o restante fixo. Avalie a solução e a latência; uma seção de Thoughts pode ser um resumo, não um registro completo do raciocínio interno. No Compare, altere apenas modelo OU parâmetro por comparação. O identificador `gemini-3.8-flash` foi confirmado no seletor do Studio em 14/09/2026. Confira sempre a disponibilidade na sua conta.
+Compare níveis de thinking suportados, mantendo o restante fixo. Avalie a solução e a latência; uma seção de Thoughts pode ser um resumo, não um registro completo do raciocínio interno. No Compare, altere apenas modelo OU parâmetro por comparação. Use `gemini-3.5-flash-lite` como modelo padrão dos próximos exercícios, conforme escolha de 17/09/2026. Confira sempre a disponibilidade na sua conta.
 
 ## 5. Ferramentas — testar uma de cada vez
 

@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Copias locais dos materiais de referencia (repositorios independentes)
+/referencias/

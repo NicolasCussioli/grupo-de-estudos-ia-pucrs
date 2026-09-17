@@ -1,0 +1,13 @@
+Script: dia-03/01_hello_gemini.py
+Modelo configurado: gemini-3.5-flash-lite
+Data local: 20260917-203133-418133
+Exit code: 0
+
+
+--- Resposta do Gemini ---
+Entender tokens é fundamental porque eles determinam diretamente os custos, a velocidade e os limites de contexto das aplicações que utilizam modelos de linguagem (LLMs). Além disso, o gerenciamento inadequado de tokens pode resultar em truncagem de dados importantes e falhas lógicas no processamento de texto.
+
+--- Metadados de Uso (Tokens) ---
+Tokens de Entrada (Prompt): 21
+Tokens de Saida (Resposta): 61
+Total de Tokens: 82

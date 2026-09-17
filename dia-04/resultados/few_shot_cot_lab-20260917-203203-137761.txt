@@ -1,0 +1,47 @@
+Script: dia-04/few_shot_cot_lab.py
+Modelo configurado: gemini-3.5-flash-lite
+Data local: 20260917-203203-137761
+Exit code: 0
+
+============================================================
+1. FEW-SHOT PROMPTING
+============================================================
+Resposta do modelo: ALTA
+
+============================================================
+2. CHAIN-OF-THOUGHT CLASSICO VIA PROMPT (Sem flags)
+============================================================
+Vamos pensar passo a passo:
+
+1. **Divisão inicial:** O trio (3 pessoas) tinha um total de 45 tarefas para dividir igualmente. Isso significa que cada pessoa começou com $45 \div 3 = 15$ tarefas.
+
+2. **O acontecimento:** No meio da sprint, 2 integrantes saem de férias. Isso significa que o progresso feito até aquele momento já foi realizado pelas 3 pessoas juntas (ou seja, cada um trabalhou nas suas tarefas iniciais).
+
+3. **O que sobra:** A pergunta quer saber quantas tarefas a pessoa que ficou vai assumir sozinha para terminar "o restante das tarefas do trio inteiro".
+
+4. **Conclusão:** Se as tarefas já foram divididas e cada um estava fazendo as suas, quando os 2 saem de férias, a única pessoa restante precisa terminar **as suas próprias tarefas** que ainda não foram concluídas. Como a divisão inicial era de 15 tarefas para cada um, a pessoa que ficou sozinha continuará responsável apenas pelas **15 tarefas** que eram dela desde o início (a menos que a pergunta indique que os outros abandonaram tarefas não feitas, mas na prática ágil padrão, cada um cuida do seu escopo, ou o trabalho é individualizado por member).
+
+Portanto, a pessoa vai assumir sozinha as **15 tarefas** que já eram a parte dela na divisão igualitária.
+
+============================================================
+3. RACIOCINIO NATIVO DA LLM (ThinkingConfig no SDK)
+============================================================
+Resposta Final Limpa (response.text):
+Vamos pensar passo a passo:
+
+1. **Divisão inicial:** O trio (3 pessoas) tinha um total de 45 tarefas para dividir igualmente.
+   - 45 tarefas ÷ 3 pessoas = 15 tarefas para cada um.
+
+2. **O que aconteceu no meio da Sprint:** 2 integrantes saíram de férias. Isso significa que das 3 pessoas, apenas **1 pessoa** continuou trabalhando.
+
+3. **O progresso até a saída:** Até o momento em que saíram de férias, cada um dos 3 integrantes trabalhou em suas respectivas tarefas. A pergunta nos diz que sobrou o "restante das tarefas do trio inteiro" para a pessoa que ficou.
+   *Nota: A forma como o problema é enunciado ("sobra só 1 pessoa para terminar o restante das tarefas do trio inteiro") indica que, ou as tarefas ainda não haviam sido iniciadas, ou a contagem se refere ao volume total restante que pertencia aos que saíram.*
+
+4. **Cálculo final:** Como os dois integrantes que saíram deixaram suas partes para trás (ou o montante pendente proporcional a eles), a pessoa que ficou precisa assumir a sua própria parte (15 tarefas) mais a parte dos outros dois integrantes que saíram (15 + 15 = 30 tarefas), totalizando as 45 tarefas restantes do trio.
+
+**Resposta final:**
+A pessoa que ficou sozinha vai assumir as **45 tarefas** (o total restante do trio).
+
+Resumos de pensamento (quando fornecidos) (candidates[0].content.parts):
+
+Tokens de Pensamento dedicados: None
