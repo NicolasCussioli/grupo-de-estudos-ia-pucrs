@@ -23,13 +23,9 @@ repositório colaborativo do trio. Ainda usamos o repositório pessoal de estudo
 - [x] Corpus coletado: 4 PDFs / 38 páginas, exportados de documentação oficial.
 - [x] Estrutura, exemplo de ambiente e teste offline preparados.
 - [x] Pitch e perguntas de avaliação preparados.
-- [ ] Confirmar nomes e GitHub dos três integrantes.
 - [ ] Criar/definir repositório do trio e configurar colaboradores.
 - [ ] Cada integrante clonar e executar o smoke test.
 - [ ] Apresentar pitch para outro trio e registrar feedback.
 - [ ] Definir piloto dos dias 7, 8 e 9 e canal de comunicação.
 - [ ] Fazer leituras, quiz e formulário individualmente.
 
-Nenhum formulário foi preenchido. O dia 6 não inclui implementar o RAG completo.
-
-Fonte do roteiro: [material do professor](https://github.com/eduardo-de-bastiani/grupo-de-estudos-ia/blob/main/sprint_1_fundamentos_rag/dia_06_kickoff_projeto_arquitetura_rag.md).
