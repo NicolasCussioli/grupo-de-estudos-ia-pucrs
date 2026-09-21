@@ -17,7 +17,12 @@ Material preparado para o laboratório; testes de acesso registrados e exercíci
 - [Dia 3](dia-03/README.md) — scripts preparados e chamadas compatíveis testadas.
 - [Dia 4](dia-04/README.md) — laboratório, classificadores e guardião testados.
 
-## Materiais oficiais
+## Dia 6 - AskData
+
+[Kickoff e pendências do trio](dia-06/README.md): Airflow + Docker, corpus de documentação
+oficial exportada em PDF e estrutura inicial do assistente.
+
+## Materiais oficiais do curso
 
 Fonte: [repositório do professor](https://github.com/eduardo-de-bastiani/grupo-de-estudos-ia).
 Clone local completo, com histórico, em `referencias/grupo-de-estudos-ia` (ignorado pelo nosso Git).

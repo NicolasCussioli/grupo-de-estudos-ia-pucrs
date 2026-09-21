@@ -1,0 +1,34 @@
+{
+  "modo": "offline",
+  "api_autenticada": false,
+  "chave_presente": true,
+  "documentos": [
+    {
+      "arquivo": "01-airflow-docker.pdf",
+      "paginas": 7,
+      "min_caracteres_pagina": 2441,
+      "sha256": "184aeea64654b0e27bf5546d25e483e66d7900be17e81c429178130f771dec82"
+    },
+    {
+      "arquivo": "02-airflow-dags.pdf",
+      "paginas": 16,
+      "min_caracteres_pagina": 245,
+      "sha256": "5c2bc35f324fbec68d183fbe81d0ea841acb2ea93db2e9ec3f26b0840790564f"
+    },
+    {
+      "arquivo": "03-airflow-tasks.pdf",
+      "paginas": 7,
+      "min_caracteres_pagina": 222,
+      "sha256": "d2626f0208be47516e03f794c742f2bacf393d9c0f4885d42cf79a0bc42ef469"
+    },
+    {
+      "arquivo": "04-docker-compose.pdf",
+      "paginas": 8,
+      "min_caracteres_pagina": 378,
+      "sha256": "05d43e27c7b62a6ea584e2f23dc99442caa88259a1ffce0407a6a3b650e606a2"
+    }
+  ],
+  "total_paginas": 38,
+  "erros": [],
+  "aprovado": true
+}
