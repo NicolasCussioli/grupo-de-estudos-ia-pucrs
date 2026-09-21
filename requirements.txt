@@ -1,3 +1,6 @@
 google-genai==2.24.0
 python-dotenv==1.2.3
 tiktoken==0.14.0
+chromadb==1.5.9
+pypdf==6.19.0
+fonttools==4.65.0

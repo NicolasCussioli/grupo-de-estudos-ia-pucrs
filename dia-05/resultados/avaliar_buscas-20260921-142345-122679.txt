@@ -1,0 +1,22 @@
+Script: dia-05/avaliar_buscas.py
+Modelo configurado: gemini-embedding-001
+Data local: 20260921-142345-122679
+Exit code: 0
+
+como resetar o relogio para as configuracoes de fabrica
+  Esperadas: [9]; semantica: [9, 8]; lexica: [8, 9]
+posso mergulhar na piscina ou tomar banho com o relogio?
+  Esperadas: [9]; semantica: [9, 1]; lexica: [9, 4]
+qual o aplicativo que devo baixar no celular para conectar?
+  Esperadas: [6]; semantica: [6, 7]; lexica: [6, 2]
+qual a capacidade da bateria em mAh e como carrega?
+  Esperadas: [4, 11]; semantica: [4, 11]; lexica: [11, 4]
+como limpar o relogio se sujar de suor no treino?
+  Esperadas: [8]; semantica: [8, 9]; lexica: [8, 10]
+a tela travou e nao responde ao toque, o que fazer?
+  Esperadas: [8]; semantica: [8, 7]; lexica: [7, 8]
+semantica_hit1: 6/6
+semantica_hit2: 6/6
+lexica_hit2: 6/6
+Fora de escopo: paginas retornadas [13, 12]
+Nao ha receita no manual; vizinho mais proximo nao significa resposta valida.

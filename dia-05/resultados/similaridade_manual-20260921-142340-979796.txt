@@ -1,0 +1,9 @@
+Script: dia-05/similaridade_manual.py
+Modelo configurado: gemini-embedding-001
+Data local: 20260921-142340-979796
+Exit code: 0
+
+Textos: ['como resetar o relogio para as configuracoes de fabrica', 'restaurar padroes de fabrica e apagar todos os dados', 'receita de bolo de chocolate com cobertura de morango']
+Mesmo tema: 0.8756
+Temas diferentes: 0.7000
+Escala de -1 a 1; nao representa porcentagem de certeza.

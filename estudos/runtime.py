@@ -65,6 +65,9 @@ class Models:
     def count_tokens(self, **kwargs):
         return self.call('count_tokens', **kwargs)
 
+    def embed_content(self, **kwargs):
+        return self.call('embed_content', **kwargs)
+
 
 class Client:
     def __init__(self):

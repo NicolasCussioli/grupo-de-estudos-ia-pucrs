@@ -14,8 +14,8 @@ parser.add_argument('script', help='Exemplo: dia-03/01_hello_gemini.py')
 parser.add_argument('args', nargs=argparse.REMAINDER)
 args = parser.parse_args()
 script = (ROOT / args.script).resolve()
-if script.parent not in [ROOT / 'dia-03', ROOT / 'dia-04'] or script.suffix != '.py' or not script.is_file():
-    parser.error('Escolha um script existente de dia-03 ou dia-04.')
+if script.parent not in [ROOT / 'dia-03', ROOT / 'dia-04', ROOT / 'dia-05'] or script.suffix != '.py' or not script.is_file():
+    parser.error('Escolha um script existente de dia-03, dia-04 ou dia-05.')
 env = dict(os.environ, PYTHONIOENCODING='utf-8', PYTHONUTF8='1')
 run = subprocess.run([sys.executable, str(script), *args.args], cwd=ROOT, env=env,
                      stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding='utf-8')
@@ -24,6 +24,8 @@ from dotenv import dotenv_values
 settings = dotenv_values(ROOT / '.env')
 key = settings.get('GEMINI_API_KEY')
 model = os.getenv('GEMINI_MODEL') or settings.get('GEMINI_MODEL') or 'gemini-3.5-flash-lite'
+if script.parent.name == 'dia-05':
+    model = 'gemini-embedding-001'
 output = run.stdout
 for secret in {key, os.getenv('GEMINI_API_KEY')} - {None, ''}:
     output = output.replace(secret, '[CHAVE OMITIDA]')

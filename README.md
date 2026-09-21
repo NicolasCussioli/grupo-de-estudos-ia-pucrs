@@ -17,6 +17,11 @@ Material preparado para o laboratório; testes de acesso registrados e exercíci
 - [Dia 3](dia-03/README.md) — scripts preparados e chamadas compatíveis testadas.
 - [Dia 4](dia-04/README.md) — laboratório, classificadores e guardião testados.
 
+## Dia 5 - Embeddings e busca vetorial
+
+[Laboratório e resultados](dia-05/README.md): manual indexado, busca semântica,
+comparação lexical e similaridade cosseno validados.
+
 ## Dia 6 - AskData
 
 [Kickoff e pendências do trio](dia-06/README.md): Airflow + Docker, corpus de documentação

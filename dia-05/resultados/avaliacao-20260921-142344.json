@@ -1,0 +1,211 @@
+{
+  "modelo": "gemini-embedding-001",
+  "indice": "manual_3d8d5062a8dbaef5c9453632",
+  "casos": [
+    {
+      "pergunta": "como resetar o relogio para as configuracoes de fabrica",
+      "paginas_relevantes": [
+        9
+      ],
+      "semantica": [
+        {
+          "pagina": 9,
+          "distancia": 0.27236300706863403,
+          "cosseno": 0.727636992931366
+        },
+        {
+          "pagina": 8,
+          "distancia": 0.3035008907318115,
+          "cosseno": 0.6964991092681885
+        }
+      ],
+      "lexica": [
+        {
+          "pagina": 8,
+          "termos_encontrados": 3
+        },
+        {
+          "pagina": 9,
+          "termos_encontrados": 3
+        }
+      ],
+      "semantica_hit1": true,
+      "semantica_hit2": true,
+      "lexica_hit2": true,
+      "cobertura_paginas_top2": 1.0
+    },
+    {
+      "pergunta": "posso mergulhar na piscina ou tomar banho com o relogio?",
+      "paginas_relevantes": [
+        9
+      ],
+      "semantica": [
+        {
+          "pagina": 9,
+          "distancia": 0.2786659598350525,
+          "cosseno": 0.7213340401649475
+        },
+        {
+          "pagina": 1,
+          "distancia": 0.3145032525062561,
+          "cosseno": 0.6854967474937439
+        }
+      ],
+      "lexica": [
+        {
+          "pagina": 9,
+          "termos_encontrados": 2
+        },
+        {
+          "pagina": 4,
+          "termos_encontrados": 1
+        }
+      ],
+      "semantica_hit1": true,
+      "semantica_hit2": true,
+      "lexica_hit2": true,
+      "cobertura_paginas_top2": 1.0
+    },
+    {
+      "pergunta": "qual o aplicativo que devo baixar no celular para conectar?",
+      "paginas_relevantes": [
+        6
+      ],
+      "semantica": [
+        {
+          "pagina": 6,
+          "distancia": 0.2750192880630493,
+          "cosseno": 0.7249807119369507
+        },
+        {
+          "pagina": 7,
+          "distancia": 0.3169788122177124,
+          "cosseno": 0.6830211877822876
+        }
+      ],
+      "lexica": [
+        {
+          "pagina": 6,
+          "termos_encontrados": 2
+        },
+        {
+          "pagina": 2,
+          "termos_encontrados": 1
+        }
+      ],
+      "semantica_hit1": true,
+      "semantica_hit2": true,
+      "lexica_hit2": true,
+      "cobertura_paginas_top2": 1.0
+    },
+    {
+      "pergunta": "qual a capacidade da bateria em mAh e como carrega?",
+      "paginas_relevantes": [
+        4,
+        11
+      ],
+      "semantica": [
+        {
+          "pagina": 4,
+          "distancia": 0.29400455951690674,
+          "cosseno": 0.7059954404830933
+        },
+        {
+          "pagina": 11,
+          "distancia": 0.30935215950012207,
+          "cosseno": 0.6906478404998779
+        }
+      ],
+      "lexica": [
+        {
+          "pagina": 11,
+          "termos_encontrados": 3
+        },
+        {
+          "pagina": 4,
+          "termos_encontrados": 1
+        }
+      ],
+      "semantica_hit1": true,
+      "semantica_hit2": true,
+      "lexica_hit2": true,
+      "cobertura_paginas_top2": 1.0
+    },
+    {
+      "pergunta": "como limpar o relogio se sujar de suor no treino?",
+      "paginas_relevantes": [
+        8
+      ],
+      "semantica": [
+        {
+          "pagina": 8,
+          "distancia": 0.2608838677406311,
+          "cosseno": 0.7391161322593689
+        },
+        {
+          "pagina": 9,
+          "distancia": 0.29016566276550293,
+          "cosseno": 0.7098343372344971
+        }
+      ],
+      "lexica": [
+        {
+          "pagina": 8,
+          "termos_encontrados": 3
+        },
+        {
+          "pagina": 10,
+          "termos_encontrados": 2
+        }
+      ],
+      "semantica_hit1": true,
+      "semantica_hit2": true,
+      "lexica_hit2": true,
+      "cobertura_paginas_top2": 1.0
+    },
+    {
+      "pergunta": "a tela travou e nao responde ao toque, o que fazer?",
+      "paginas_relevantes": [
+        8
+      ],
+      "semantica": [
+        {
+          "pagina": 8,
+          "distancia": 0.32559704780578613,
+          "cosseno": 0.6744029521942139
+        },
+        {
+          "pagina": 7,
+          "distancia": 0.3506031632423401,
+          "cosseno": 0.6493968367576599
+        }
+      ],
+      "lexica": [
+        {
+          "pagina": 7,
+          "termos_encontrados": 3
+        },
+        {
+          "pagina": 8,
+          "termos_encontrados": 3
+        }
+      ],
+      "semantica_hit1": true,
+      "semantica_hit2": true,
+      "lexica_hit2": true,
+      "cobertura_paginas_top2": 1.0
+    }
+  ],
+  "fora_de_escopo": [
+    {
+      "pagina": 13,
+      "distancia": 0.4577838182449341,
+      "cosseno": 0.5422161817550659
+    },
+    {
+      "pagina": 12,
+      "distancia": 0.4774513840675354,
+      "cosseno": 0.5225486159324646
+    }
+  ]
+}
